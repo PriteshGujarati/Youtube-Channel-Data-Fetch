@@ -225,5 +225,5 @@ def getAllInfo(g):
             c='Jobs and Career'
         UnivariateAnalysis.append([c,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12])
     dfUA = pd.DataFrame(UnivariateAnalysis, columns = ['Category','MaxViews','MinViews','MeanViews','MaxLikes','MinLikes','MeanLikes' ,'MaxDislikes','MinDislikes','MeanDislikes','MaxComments','MinComments','MeanComments']) 
-    dfUA.to_csv('/content/drive/My Drive/Colab Notebooks/UA.csv',index=False)
+    dfUA.to_csv('/UA.csv',index=False)
  
